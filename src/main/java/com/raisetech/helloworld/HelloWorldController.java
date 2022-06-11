@@ -10,4 +10,10 @@ public class HelloWorldController {
   public String hello() {
     return "hello koyama";
   }
+
+  @GetMapping("/koyama")
+  public String koyama() {
+    return "I am koyama";
+  }
+
 }
